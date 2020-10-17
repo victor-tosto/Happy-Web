@@ -1,0 +1,58 @@
+#page-landing {
+    background: linear-gradient(329.54deg, #00C7C7 0%, #29B6D1 100%);
+    color: var(--color-text-white);
+    min-height: 100vh;
+}
+
+#container {
+    margin: auto;
+}
+
+header {
+    margin-bottom: 6rem;
+}
+
+.logo-container img {
+    height: 5.7rem;
+}
+
+.cep {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3rem;
+}
+
+.container-happy {
+    margin-bottom: 8rem;
+}
+
+#happy .container-happy h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    line-height: 3.8rem;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+#happy .container-happy p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.7rem;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-button a {
+    background: var(--color-yellow);
+    padding: 2rem;
+    border-radius: 2.6rem;
+    outline: 0;
+    transition: background .3s;
+}
+
+.container-button a:hover {
+    color: #15C3D6;
+    background: #96FEFF;
+}
