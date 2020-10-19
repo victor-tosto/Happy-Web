@@ -42,7 +42,7 @@ footer a img {
     margin: 8rem auto;
     border-radius: 2rem;
     width: 40vw;
-    height: 203%;
+    height: max-content;
     background: #FFF;
 
     border: 1px solid #D3E2E5;
@@ -252,6 +252,7 @@ a.button-wpp {
     font-weight: 800;
 
     height: 6rem;
+    margin-bottom: 7rem;
 
     transition: background .2s;
 }
