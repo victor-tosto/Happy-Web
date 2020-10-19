@@ -14,7 +14,7 @@ aside {
 }
 
 header img {
-    height: 8rem;
+    height: 7rem;
 }
 
 footer a {
@@ -39,10 +39,10 @@ footer a img {
 }
 
 .container-orphanage {
-    margin: 10rem auto;
+    margin: 8rem auto;
     border-radius: 2rem;
     width: 40vw;
-    height: 200vh;
+    height: 203%;
     background: #FFF;
 
     border: 1px solid #D3E2E5;
@@ -62,9 +62,45 @@ footer a img {
     margin-bottom: 2rem;
 }
 
-.images img {
+.image1 {
     width: 8rem;
     height: 8rem;
+    background-image: url(/images/image\ 1.png);
+    border-radius: 2rem;
+}
+
+.image2 {
+    width: 8rem;
+    height: 8rem;
+    background-image: url(/images/image\ 2.png);
+    border-radius: 2rem;
+}
+
+.image3 {
+    width: 8rem;
+    height: 8rem;
+    background-image: url(/images/image\ 5.png);
+    border-radius: 2rem;
+}
+
+.image4 {
+    width: 8rem;
+    height: 8rem;
+    background-image: url(/images/image\ 3.png);
+    border-radius: 2rem;
+}
+
+.image5 {
+    width: 8rem;
+    height: 8rem;
+    background-image: url(/images/image\ 6.png);
+    border-radius: 2rem;
+}
+
+.image6 {
+    width: 8rem;
+    height: 8rem;
+    background-image: url(/images/image\ 4.png);
     border-radius: 2rem;
 }
 
@@ -89,7 +125,7 @@ footer a img {
     margin-bottom: 3rem;
 }
 
-.orphanage-details a {
+.orphanage-details a.button-google-maps {
     text-decoration: none;
     color: var(--color-text-grey-dark);
     font-weight: 700;
@@ -107,7 +143,7 @@ footer a img {
     transition: background .2s;
 }
 
-.orphanage-details a:hover {
+.orphanage-details a.button-google-maps:hover {
     background: var(--color-text-grey-light);
 }
 
@@ -124,7 +160,7 @@ footer a img {
 
 .instructions {
     color: var(--color-text-grey-dark);
-    width: 95%;
+    width: 100%;
 }
 
 .instructions h2 {
@@ -136,4 +172,96 @@ footer a img {
     font-size: 1.6rem;
     font-weight: 600;
     margin-bottom: 2rem;
+    line-height: 2.8rem;
+}
+
+.container-visits-instructions {
+    display: flex;
+    
+    margin-bottom: 5rem;
+}
+
+.visits {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 2rem;
+    background: linear-gradient(149.97deg, #E6F7FB 8.13%, #FFFFFF 92.67%);
+    border: 1px solid #B3DAE2;
+
+    width: 50%;
+    margin-right: 2rem;
+}
+
+.visits-content {
+    padding: 2rem 0 0 2rem;
+}
+
+.visits-content img {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+}
+
+.visits-content p {
+    font-size: 1.6rem;
+    color: #5C8599;
+    line-height: 2.8rem;
+}
+
+.attendance {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 2rem;
+    background: linear-gradient(154.16deg, #EDFFF6 7.85%, #FFFFFF 91.03%);
+    border: 1px solid #A1E9C5;
+
+    width: 50%;
+}
+
+.attendance-content {
+    padding: 2rem 0 0 2rem;
+}
+
+.attendance-content img {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+}
+
+.attendance-content p {
+    font-size: 1.6rem;
+    color: #37C77F;
+    line-height: 2.8rem;
+}
+
+a.button-wpp {
+    background: #3CDC8C;
+    border-radius: 2rem;
+
+    text-decoration: none;
+    color: var(--color-text-white);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 800;
+
+    height: 6rem;
+
+    transition: background .2s;
+}
+
+a.button-wpp img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1.5rem;
+}
+
+a.button-wpp:hover {
+    background: #37C77F;
 }
