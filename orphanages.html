@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localize um orfanato | Happy</title>
+
+    <link rel="icon" href="images/logo-icon.png">
+
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/partials/page-orphanages.css">
+    <link rel="stylesheet" href="/styles/partials/animations.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="page-orphanages">
+    <aside class="animate-right">
+        <header>
+            <img src="images/map-marker.svg" alt="Happy">
+
+            <h2>Escolha <br> um orfanato no mapa</h2>
+
+            <p>Muitas crianças estão esperando sua visita :)</p>
+        </header>
+
+        <footer>
+            <strong>Vinhedo</strong>
+            <span>São Paulo</span>
+        </footer>
+    </aside>
+
+    <div id="mapid" class="animate-appear"></div>
+
+    <a href="create-orphanage.html" class="create-orphanage" title="Cadastre um orfanato">
+        <img src="images/plus.svg" alt="Criar orfanato">
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

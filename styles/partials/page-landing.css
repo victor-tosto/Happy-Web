@@ -56,3 +56,60 @@ header {
     color: #15C3D6;
     background: #96FEFF;
 }
+
+/* desktop */
+@media (min-width: 760px) {
+
+    #page-landing {
+        background: linear-gradient(160.54deg, #00C7C7 0%, #29B6D1 100%);
+    }
+    
+    #container {
+        padding: 3.2rem 0;
+        max-width: 1120px;
+        height: 70vh;
+        background: url("/images/bg.svg") no-repeat;
+        background-position-x: 80%;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 13rem;
+    }
+
+    .logo-container img {
+        height: 7rem;
+    }
+
+    .cep {
+        font-size: 2.2rem;
+        text-align: end;
+    }
+
+    #happy {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-happy {
+        text-align: initial;
+        width: 350px;
+        margin: 0;
+    }
+
+    #happy .container-happy h1 {
+        font-size: 8.6rem;
+        line-height: 7.5rem;
+        margin-bottom: 4rem;
+    }
+
+    #happy .container-happy p {
+        font-size: 2.5rem;
+    }
+
+    .container-button {
+        align-items: flex-end;
+    }
+}
