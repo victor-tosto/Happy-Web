@@ -18,9 +18,6 @@
   <img alt="Happy" src=".github/happy.png" width="100%">
 </p>
 
-<h1 align="center">Em construção...</h1>
-<hr>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -28,6 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [HTML 5](https://www.w3schools.com/html/)
 - [CSS 3](https://www.w3schools.com/css/default.asp)
 - [JavaScript](https://www.w3schools.com/js/default.asp)
+- [SQLite](https://www.sqlite.org/index.html)
 
 ## 💻 Projeto
 
