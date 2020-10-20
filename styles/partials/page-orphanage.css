@@ -41,7 +41,7 @@ footer a img {
 .container-orphanage {
     margin: 8rem auto;
     border-radius: 2rem;
-    width: 40vw;
+    width: 45vw;
     height: max-content;
     background: #FFF;
 
@@ -50,7 +50,7 @@ footer a img {
 
 .container-orphanage img {
     border-radius: 2rem 2rem 0 0;
-    width: 40vw;
+    width: 45vw;
 }
 
 .images {

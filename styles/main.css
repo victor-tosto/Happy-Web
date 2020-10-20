@@ -31,6 +31,10 @@ html, body {
     height: 100vh;
 }
 
+button, input, textarea {
+    outline: 0;
+}
+
 #page-landing {
     display: flex;
     text-align: center;
