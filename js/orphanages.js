@@ -16,6 +16,6 @@ const popup = L.popup({
     minHeight: 240
 }).setContent('Lar das meninas <a href="orphanage.html?id=1" class="choose-orphanage"> <img src="./images/arrow-white.svg"></a>')
 
-L.marker([-27.222633, -49.6455874], { icon })
+L.marker([-23.0341567, -46.9772313], { icon })
 .addTo(map)
 .bindPopup(popup)

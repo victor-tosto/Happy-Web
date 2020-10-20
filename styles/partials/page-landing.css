@@ -67,7 +67,6 @@ header {
     #container {
         padding: 3.2rem 0;
         max-width: 1120px;
-        height: 90vh;
         background: url("/images/bg.svg") no-repeat;
         background-position-x: 80%;
         margin: auto;
