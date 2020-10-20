@@ -169,10 +169,6 @@ input[type="file"] {
 
 .button-select button {
     cursor: pointer;
-    transition: background border .2s;
-}
-
-.button-select button.sim {
     font-family: 'Nunito', sans-serif;
     font-size: 1.9rem;
     font-weight: 600;
@@ -185,29 +181,18 @@ input[type="file"] {
     height: 6rem;
 }
 
-.button-select button.nao {
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.9rem;
-    font-weight: 600;
+.button-select button.active {
+    background: #edfff6;
+    border: 1px solid #a1e9c5;
+    color: #37c77f;
+}
 
-    background: #F5F8FA;
-    border: 1px solid #D3E2E5;
+.button-select button:first-child {
+    border-radius: 2rem 0 0 2rem;
+}
+
+.button-select button:last-child {
     border-radius: 0 2rem 2rem 0;
-    color: #8FA7B2;
-
-    height: 6rem;
-}
-
-.button-select button.sim:active {
-    background: #EDFFF6;
-    border: 1px solid #A1E9C5;
-    color: #37C77F;
-}
-
-.button-select button.nao:active {
-    background: #FFE4EE;
-    border: 1px solid #ff8eb7;
-    color: #ff8eb7;
 }
 
 button.confirm-button {
